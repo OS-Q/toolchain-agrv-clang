@@ -20,31 +20,31 @@
 
 ## [包含设备](https://github.com/OS-Q/W25/wiki) 
 
-#### D155：[加密签名](https://github.com/OS-Q/D155)
+#### D169：[加密验签](https://github.com/OS-Q/D169)
 
-用于加密下层局域数据，保证数据入网的唯一性和接收数据的正确
+用于加密下层局域数据，保证接收指令数据的合法和完整
 
-#### D156：[授权认证](https://github.com/OS-Q/D156)
+#### D170：[认证授权](https://github.com/OS-Q/D170)
 
-用于验证设备和数据安全
+用于验证设备，处理敏感数据并授予相应行为的执行权限
 
-#### D157：[板级设备](https://github.com/OS-Q/D157)
-
-
-
-#### D158：[板级设备](https://github.com/OS-Q/D158)
+#### D171：[板级设备](https://github.com/OS-Q/D171)
 
 
 
-#### D159：[板级设备](https://github.com/OS-Q/D159)
+#### D172：[板级设备](https://github.com/OS-Q/D172)
 
 
 
-#### D160：[板级设备](https://github.com/OS-Q/D160)
+#### D173：[板级设备](https://github.com/OS-Q/D173)
 
 
 
-#### D161：[板级设备](https://github.com/OS-Q/D161)
+#### D174：[板级设备](https://github.com/OS-Q/D174)
+
+
+
+#### D175：[板级设备](https://github.com/OS-Q/D175)
 
 
 ## [同级平台](https://github.com/OS-Q/M6/wiki)
@@ -69,5 +69,5 @@
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####   @  2019-1-4
+####  @ 2019-1-4
 
