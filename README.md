@@ -1,83 +1,73 @@
-﻿# W25：[广域网络](https://github.com/OS-Q/W25)
+﻿# W25：[安全网关](https://github.com/OS-Q/W25)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属控制节点：[M6](https://github.com/OS-Q/M6)
+#### 归属数据网关：[M6](https://github.com/OS-Q/M6)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
----
-
 ## [平台描述](https://github.com/OS-Q/W25/wiki) 
 
-基于广域覆盖无线网络接入互联网
+数据安全网关，用于包装原始数据，保证数据安全
 
-### [共用资源](https://github.com/OS-Q/W25/wiki/src) 
-
-#### software
-
-
-#### hardware
-
+### [资源](OS-Q/)
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-## [包含设备](https://github.com/OS-Q/W25/wiki/index) 
+- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
-#### D169：[BC26](https://github.com/OS-Q/D169)
+## [包含设备](https://github.com/OS-Q/W25/wiki) 
 
+#### D155：[加密签名](https://github.com/OS-Q/D155)
 
+用于加密下层局域数据，保证数据入网的唯一性和接收数据的正确
 
-#### D170：[ME3616](https://github.com/OS-Q/D170)
+#### D156：[授权认证](https://github.com/OS-Q/D156)
 
+用于验证设备和数据安全
 
-
-#### D171：[M26](https://github.com/OS-Q/D171)
-
-
-
-#### D172：[RDA8810](https://github.com/OS-Q/D172)
+#### D157：[板级设备](https://github.com/OS-Q/D157)
 
 
 
-#### D173：[板级设备](https://github.com/OS-Q/D173)
+#### D158：[板级设备](https://github.com/OS-Q/D158)
 
 
 
-#### D174：[板级设备](https://github.com/OS-Q/D174)
+#### D159：[板级设备](https://github.com/OS-Q/D159)
 
 
 
-#### D175：[板级设备](https://github.com/OS-Q/D175)
+#### D160：[板级设备](https://github.com/OS-Q/D160)
 
 
 
----
+#### D161：[板级设备](https://github.com/OS-Q/D161)
 
-## [同级平台](https://github.com/OS-Q/W25/wiki/index)
 
-#### W23：[有线平台](https://github.com/OS-Q/W23)
+## [同级平台](https://github.com/OS-Q/M6/wiki)
 
-基于通信线缆连接的网络通信
+#### W23：[实时网关](https://github.com/OS-Q/W23)
 
-#### W24：[短距平台](https://github.com/OS-Q/W24)
+用于守候低频数据上报，维护低频设备通信管道
 
-基于WiFi等短距无线通信连接
+#### W24：[扩展网关](https://github.com/OS-Q/W24)
 
-#### -> W25：[广域平台](https://github.com/OS-Q/W25)
+具有可临时定义的网关，可以根据需要切换身份
 
-基于运营商网络的广域覆盖
+#### -> W25：[安全网关](https://github.com/OS-Q/W25)
 
-#### W26：[专网平台](https://github.com/OS-Q/W26)
+用于实现对数据的加密，保证数据向上的私密性
 
-基于专用网络通信接入
+#### W26：[分发网关](https://github.com/OS-Q/W26)
 
+用于完成数据资源储备，保证通用数据及时下发
 
 ---
 
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-###  qitas@qitas.cn
-###  2018-12-4
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####   @  2019-1-4
 
