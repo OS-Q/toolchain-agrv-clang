@@ -13,9 +13,9 @@
 
 该平台主要价值在于提供中间数据的适配转换处理，通过集成的计算资源在传送过程中进行封装处理，便于对接上下各种平台。
 
-边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+边缘设备命名规则：体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 
-## [资源](OS-Q/)
+## [平台资源](OS-Q/)
 
 - [工程](project/)
 - [资源](src/)
@@ -27,9 +27,9 @@
 - D170：[网口计算设备](https://github.com/OS-Q/D170)
 - D171：[WIFI计算设备](https://github.com/OS-Q/D171)
 - D172：[GSM计算设备](https://github.com/OS-Q/D172)
-- D173：[LTE计算设备](https://github.com/OS-Q/D173)
-- D174：[板级设备](https://github.com/OS-Q/D174)
-- D175：[板级设备](https://github.com/OS-Q/D175)
+- D173：[LTE计算设备A](https://github.com/OS-Q/D173)
+- D174：[LTE计算设备S](https://github.com/OS-Q/D174)
+- D175：[混合计算设备](https://github.com/OS-Q/D175)
 
 ## [同级平台](https://github.com/OS-Q/M6/wiki)
 
