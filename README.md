@@ -1,54 +1,48 @@
-﻿# W25：[计算网关](https://github.com/OS-Q/W25)
-
+﻿# [对接平台](https://github.com/OS-Q/W25)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 ####  qitas@qitas.cn
-
 #### 归属通信网关：[M6](https://github.com/OS-Q/M6)
-
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+边缘设备命名：体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+### [平台描述](https://github.com/OS-Q/W25/wiki) 
 
-## [平台描述](https://github.com/OS-Q/W25/wiki) 
+协议对接平台，平台内设备全部基于Linux系统，可以快速部署相关的标准化协议，可模拟各种设备协议化数据输入输出
 
-计算协同网关平台，在传统网关的基础功能上，提供更多的计算资源和统一的系统标准，方便部署软体协议资源，实现相关数据的对接。
+该平台包括7种协议对接设备，可以提供多种应用场景支撑：
 
-该平台主要价值在于提供中间数据的适配转换处理，通过集成的计算资源在传送过程中进行封装处理，便于对接上下各种平台。
-
-该平台包括7种设备，提供7中应用场景支撑：
-
+- 小体积
 - 低功耗
-- 低时延
 - 低成本
 - 大规模
-- 高可靠
 - 远距离
-- 高带宽
+- 高可靠
 
-边缘设备命名规则：体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+### [平台资源](OS-Q/)
 
-## [平台资源](OS-Q/)
-
-- [工程](project/)
 - [资源](src/)
 - [文档](docs/)
+- [工程](project/)
 
-## [包含设备](https://github.com/OS-Q/W25/wiki) 
+### [包含设备](https://github.com/OS-Q/W25) 
 
-- D169：[串口计算设备](https://github.com/OS-Q/D169)
-- D170：[网口计算设备](https://github.com/OS-Q/D170)
-- D171：[WIFI计算设备](https://github.com/OS-Q/D171)
-- D172：[GSM计算设备](https://github.com/OS-Q/D172)
-- D173：[LTE计算设备A](https://github.com/OS-Q/D173)
-- D174：[LTE计算设备S](https://github.com/OS-Q/D174)
-- D175：[混合计算设备](https://github.com/OS-Q/D175)
+- D169：[低成本对接](https://github.com/OS-Q/D169)
+- D170：[小尺寸对接](https://github.com/OS-Q/D170)
+- D171：[WIFI对接A](https://github.com/OS-Q/D171)
+- D172：[WIFI对接S](https://github.com/OS-Q/D172)
+- D173：[LTE对接A](https://github.com/OS-Q/D173)
+- D174：[LTE对接S](https://github.com/OS-Q/D174)
+- D175：[多通道对接](https://github.com/OS-Q/D175)
 
-## [同级平台](https://github.com/OS-Q/M6/wiki)
+### [同级平台](https://github.com/OS-Q/M6)
 
 - W23：[连接平台](https://github.com/OS-Q/W23)
-- W24：[缓冲平台](https://github.com/OS-Q/W24)
-- [W25：计算网关](https://github.com/OS-Q/W25)
-- W26：[保障平台](https://github.com/OS-Q/W26)
+- W24：[缓存平台](https://github.com/OS-Q/W24)
+- [W25：对接平台](https://github.com/OS-Q/W25)
+- W26：[导流平台](https://github.com/OS-Q/W26)
 
-###  [OS-Q: operation system for edge device cluster](http://www.OS-Q.com)
-####  2019-4-11
+
+### [Q : Operation System for edge devices](http://www.OS-Q.com/Edge/M6)
+####  2019-4-12
+
 
 
