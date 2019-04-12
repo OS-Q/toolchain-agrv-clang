@@ -29,8 +29,8 @@
 - D170：[小尺寸对接](https://github.com/OS-Q/D170)
 - D171：[WIFI对接A](https://github.com/OS-Q/D171)
 - D172：[WIFI对接S](https://github.com/OS-Q/D172)
-- D173：[LTE对接A](https://github.com/OS-Q/D173)
-- D174：[LTE对接S](https://github.com/OS-Q/D174)
+- D173：[广域对接A](https://github.com/OS-Q/D173)
+- D174：[广域对接S](https://github.com/OS-Q/D174)
 - D175：[多通道对接](https://github.com/OS-Q/D175)
 
 ### [同级平台](https://github.com/OS-Q/M6)
