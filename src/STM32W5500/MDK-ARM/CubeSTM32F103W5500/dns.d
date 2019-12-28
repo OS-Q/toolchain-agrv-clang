@@ -1,0 +1,9 @@
+cubestm32f103w5500\dns.o: ..\w5500\dns.c
+cubestm32f103w5500\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+cubestm32f103w5500\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+cubestm32f103w5500\dns.o: ..\w5500\socket.h
+cubestm32f103w5500\dns.o: ..\w5500\wizchip_conf.h
+cubestm32f103w5500\dns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+cubestm32f103w5500\dns.o: ..\w5500\w5500.h
+cubestm32f103w5500\dns.o: ..\w5500\wizchip_conf.h
+cubestm32f103w5500\dns.o: ..\w5500\dns.h
