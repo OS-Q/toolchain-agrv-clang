@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agg-kicad
+EESchema Schematic File Version 4
 LIBS:esp32-ethernet-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP-WROOM-32 IC2
+L esp32-ethernet-rescue:ESP-WROOM-32 IC2
 U 1 1 592296D2
 P 3200 2950
 F 0 "IC2" H 3200 4275 50  0000 C CNN
@@ -55,7 +26,7 @@ F 3 "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datash
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L esp32-ethernet-rescue:GND #PWR01
 U 1 1 5924C1F7
 P 1700 2100
 F 0 "#PWR01" H 600 -750 50  0001 C CNN
@@ -66,7 +37,7 @@ F 3 "" H 600 -500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3v3 #PWR02
+L esp32-ethernet-rescue:3v3 #PWR02
 U 1 1 5924C2DA
 P 1950 1750
 F 0 "#PWR02" H 700 -40 50  0001 L CNN
@@ -79,7 +50,7 @@ $EndComp
 Text GLabel 5450 1850 2    60   Input ~ 0
 PHY_CLK
 $Comp
-L R R3
+L esp32-ethernet-rescue:R R3
 U 1 1 5924BFC1
 P 4300 1600
 F 0 "R3" H 4370 1646 50  0000 L CNN
@@ -90,7 +61,7 @@ F 3 "" H -700 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3v3 #PWR03
+L esp32-ethernet-rescue:3v3 #PWR03
 U 1 1 5924C111
 P 4300 1350
 F 0 "#PWR03" H 750 -290 50  0001 L CNN
@@ -101,7 +72,7 @@ F 3 "" H 750 -400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSCILLATOR_4 Y1
+L esp32-ethernet-rescue:OSCILLATOR_4 Y1
 U 1 1 5924C512
 P 10300 2950
 F 0 "Y1" H 10350 2635 50  0000 C CNN
@@ -114,7 +85,7 @@ $EndComp
 Text GLabel 4450 2750 2    60   Output ~ 0
 PHY_CLK_EN
 $Comp
-L R R6
+L esp32-ethernet-rescue:R R6
 U 1 1 5924C9EB
 P 9850 2500
 F 0 "R6" H 9920 2546 50  0000 L CNN
@@ -125,7 +96,7 @@ F 3 "" H 5650 -950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L esp32-ethernet-rescue:GND #PWR04
 U 1 1 5924CBB2
 P 9850 2300
 F 0 "#PWR04" H 5500 -1550 50  0001 C CNN
@@ -138,7 +109,7 @@ $EndComp
 Text GLabel 9800 2850 0    60   Input ~ 0
 PHY_CLK_EN
 $Comp
-L GND #PWR05
+L esp32-ethernet-rescue:GND #PWR05
 U 1 1 5924CEF7
 P 10850 2650
 F 0 "#PWR05" H 10900 2700 50  0001 C CNN
@@ -149,7 +120,7 @@ F 3 "" H 1050 -1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 3v3 #PWR06
+L esp32-ethernet-rescue:3v3 #PWR06
 U 1 1 5924D080
 P 10850 3150
 F 0 "#PWR06" H 10900 3200 50  0001 L CNN
@@ -168,7 +139,7 @@ NoConn ~ 2200 3850
 Text Notes 700  7650 0    60   ~ 0
 Power Budget @ 3.3V:\nESP-WROOM-32: 260mA\nLAN8720A: 54mA\n\nTotal: approx 350mA
 $Comp
-L C C2
+L esp32-ethernet-rescue:C C2
 U 1 1 59257C30
 P 9500 1300
 F 0 "C2" H 9386 1346 50  0000 R CNN
@@ -179,7 +150,7 @@ F 3 "" H 2500 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117-3.3 IC3
+L esp32-ethernet-rescue:LM1117-3.3 IC3
 U 1 1 59257F22
 P 10050 1050
 F 0 "IC3" H 10050 1417 50  0000 C CNN
@@ -190,7 +161,7 @@ F 3 "" H 1600 -450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L esp32-ethernet-rescue:GND #PWR07
 U 1 1 592580C8
 P 9500 1550
 F 0 "#PWR07" H 2550 -650 50  0001 C CNN
@@ -201,7 +172,7 @@ F 3 "" H 2550 -400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L esp32-ethernet-rescue:GND #PWR08
 U 1 1 59258178
 P 10050 1550
 F 0 "#PWR08" H 2400 -450 50  0001 C CNN
@@ -212,7 +183,7 @@ F 3 "" H 2400 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L esp32-ethernet-rescue:GND #PWR09
 U 1 1 59258228
 P 10600 1550
 F 0 "#PWR09" H 10650 1600 50  0001 C CNN
@@ -223,7 +194,7 @@ F 3 "" H 2400 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3v3 #PWR010
+L esp32-ethernet-rescue:3v3 #PWR010
 U 1 1 592583D5
 P 10600 850
 F 0 "#PWR010" H 2000 -190 50  0001 L CNN
@@ -234,7 +205,7 @@ F 3 "" H 2000 -300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L esp32-ethernet-rescue:C C3
 U 1 1 59258465
 P 10600 1300
 F 0 "C3" H 10715 1346 50  0000 L CNN
@@ -245,7 +216,7 @@ F 3 "" H 2050 -400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01x02 J2
+L esp32-ethernet-rescue:CONN_01x02 J2
 U 1 1 59258CB6
 P 8800 1100
 F 0 "J2" H 8831 1315 50  0000 C CNN
@@ -256,7 +227,7 @@ F 3 "" H 2150 -1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01x06 J1
+L esp32-ethernet-rescue:CONN_01x06 J1
 U 1 1 5925A0F7
 P 1100 2450
 F 0 "J1" H 1131 2665 50  0000 C CNN
@@ -269,7 +240,7 @@ $EndComp
 Text Notes 1050 3550 0    39   ~ 0
 FTDI pinout:\n1 - BLK - GND\n2 - BRN - CTS#\n3 - RED - VCC\n4 - ORG - TXD\n5 - YEL - RXD\n6 - GRN - RTS#
 $Comp
-L GND #PWR011
+L esp32-ethernet-rescue:GND #PWR011
 U 1 1 5925A328
 P 1550 2450
 F 0 "#PWR011" H -1000 200 50  0001 C CNN
@@ -280,7 +251,7 @@ F 3 "" H -1000 450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 3v3 #PWR012
+L esp32-ethernet-rescue:3v3 #PWR012
 U 1 1 5925B3DF
 P 1700 2600
 F 0 "#PWR012" H -1600 710 50  0001 L CNN
@@ -292,7 +263,7 @@ F 3 "" H -1600 600 60  0001 C CNN
 $EndComp
 NoConn ~ 1200 2550
 $Comp
-L Jumper_NO_Small JP1
+L esp32-ethernet-rescue:Jumper_NO_Small JP1
 U 1 1 5925BC6A
 P 4850 1600
 F 0 "JP1" V 4804 1648 50  0000 L CNN
@@ -303,7 +274,7 @@ F 3 "" H -2950 50  50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR013
+L esp32-ethernet-rescue:GND #PWR013
 U 1 1 5925C082
 P 4850 1400
 F 0 "#PWR013" H -2050 350 50  0001 C CNN
@@ -316,7 +287,7 @@ $EndComp
 Text GLabel 9800 2950 0    60   Output ~ 0
 PHY_CLK
 $Comp
-L R R4
+L esp32-ethernet-rescue:R R4
 U 1 1 5925DD16
 P 5250 1850
 F 0 "R4" V 5043 1850 50  0000 C CNN
@@ -327,7 +298,7 @@ F 3 "" H -1500 200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BME280 IC1
+L esp32-ethernet-rescue:BME280 IC1
 U 1 1 592AD5C5
 P 2350 5900
 F 0 "IC1" H 2350 6325 50  0000 C CNN
@@ -340,7 +311,7 @@ F 5 "828-1063-1-ND" H -5600 1800 50  0001 L CNN "Digi-Key"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L esp32-ethernet-rescue:GND #PWR014
 U 1 1 592AD7A0
 P 1900 6150
 F 0 "#PWR014" H 1950 6200 50  0001 C CNN
@@ -351,7 +322,7 @@ F 3 "" H -5000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L esp32-ethernet-rescue:C C1
 U 1 1 592AD97F
 P 1750 5950
 F 0 "C1" H 1635 5996 50  0000 R CNN
@@ -362,7 +333,7 @@ F 3 "" H -4800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3v3 #PWR015
+L esp32-ethernet-rescue:3v3 #PWR015
 U 1 1 592AE1D3
 P 1750 5650
 F 0 "#PWR015" H 1800 5700 50  0001 L CNN
@@ -373,7 +344,7 @@ F 3 "" H -5250 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L esp32-ethernet-rescue:GND #PWR016
 U 1 1 592AE7A8
 P 3150 6000
 F 0 "#PWR016" H 3200 6050 50  0001 C CNN
@@ -384,7 +355,7 @@ F 3 "" H -5250 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L esp32-ethernet-rescue:R R1
 U 1 1 592ADD44
 P 2850 5550
 F 0 "R1" H 2920 5596 50  0000 L CNN
@@ -395,7 +366,7 @@ F 3 "" H -5250 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L esp32-ethernet-rescue:R R2
 U 1 1 592ADDFE
 P 3200 5550
 F 0 "R2" H 3270 5596 50  0000 L CNN
@@ -410,7 +381,7 @@ I2C_SCL
 Text GLabel 3350 5900 2    60   BiDi ~ 0
 I2C_SDA
 $Comp
-L 3v3 #PWR017
+L esp32-ethernet-rescue:3v3 #PWR017
 U 1 1 592AE9EC
 P 3000 5250
 F 0 "#PWR017" H 3050 5300 50  0001 L CNN
@@ -471,12 +442,12 @@ Connection ~ 2850 5800
 Wire Wire Line
 	2850 5700 2850 5800
 Wire Wire Line
-	3350 5900 2750 5900
+	3350 5900 3200 5900
 Wire Wire Line
-	3350 5800 2750 5800
+	3350 5800 2850 5800
 Connection ~ 2850 5400
 Wire Wire Line
-	2750 5400 3200 5400
+	2750 5400 2850 5400
 Wire Wire Line
 	2750 5400 2750 5700
 Wire Wire Line
@@ -486,7 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 6100 1900 6100
 Wire Wire Line
-	1750 5800 1950 5800
+	1750 5800 1900 5800
 Connection ~ 1900 6100
 Connection ~ 1900 5800
 Wire Wire Line
@@ -499,11 +470,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 5900 1950 5900
 Wire Wire Line
-	1900 5900 1900 6150
+	1900 5900 1900 6000
 Wire Wire Line
 	5400 1850 5450 1850
 Wire Wire Line
-	4200 1850 5100 1850
+	4200 1850 4300 1850
 Wire Wire Line
 	9800 2950 9900 2950
 Wire Wire Line
@@ -540,21 +511,21 @@ Wire Wire Line
 Wire Wire Line
 	1200 2450 1550 2450
 Wire Wire Line
-	8900 1100 9500 1100
+	8900 1100 9200 1100
 Wire Wire Line
 	8950 1200 8900 1200
 Wire Wire Line
 	8950 1550 8950 1200
 Wire Wire Line
-	9500 1550 8950 1550
+	9500 1550 9150 1550
 Connection ~ 9500 1100
 Wire Wire Line
 	9500 1050 9750 1050
 Wire Wire Line
-	9500 1050 9500 1150
+	9500 1050 9500 1100
 Connection ~ 10600 1050
 Wire Wire Line
-	10600 850  10600 1150
+	10600 850  10600 1050
 Wire Wire Line
 	10350 1050 10600 1050
 Wire Wire Line
@@ -570,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2350 5800 2350
 Wire Wire Line
-	9800 2850 9900 2850
+	9800 2850 9850 2850
 Wire Wire Line
 	9850 2350 9850 2300
 Connection ~ 4300 1850
@@ -601,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2100 2200 2100
 Wire Wire Line
-	2200 1950 2200 2250
+	2200 1950 2200 2050
 Wire Wire Line
 	5800 3150 5800 3000
 Wire Wire Line
@@ -629,7 +600,7 @@ Wire Wire Line
 Text GLabel 7850 2500 2    60   Input ~ 0
 PHY_CLK
 $Comp
-L R R5
+L esp32-ethernet-rescue:R R5
 U 1 1 592B44E5
 P 7650 2500
 F 0 "R5" V 7443 2500 50  0000 C CNN
@@ -688,7 +659,7 @@ GPIO33
 Wire Wire Line
 	4200 3750 4450 3750
 $Comp
-L 3v3 #PWR018
+L esp32-ethernet-rescue:3v3 #PWR018
 U 1 1 592B8566
 P 5950 5000
 F 0 "#PWR018" H 6000 5050 50  0001 L CNN
@@ -703,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 5100 5950 5000
 $Comp
-L GND #PWR019
+L esp32-ethernet-rescue:GND #PWR019
 U 1 1 592B8700
 P 5950 5850
 F 0 "#PWR019" H 6000 5900 50  0001 C CNN
@@ -734,7 +705,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5500 6000 5500
 $Comp
-L CONN_01x08 J3
+L esp32-ethernet-rescue:CONN_01x08 J3
 U 1 1 592B9758
 P 5750 5100
 F 0 "J3" H 5781 5315 50  0000 C CNN
@@ -753,7 +724,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5700 6000 5700
 $Comp
-L CONN_01x08 J4
+L esp32-ethernet-rescue:CONN_01x08 J4
 U 1 1 592B9F34
 P 6600 5100
 F 0 "J4" H 6631 5315 50  0000 C CNN
@@ -792,7 +763,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 5700 6850 5700
 $Comp
-L GND #PWR020
+L esp32-ethernet-rescue:GND #PWR020
 U 1 1 592AE7FC
 P 6850 5850
 F 0 "#PWR020" H 6900 5900 50  0001 C CNN
@@ -807,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 5800 6850 5850
 $Comp
-L PWR #FLG021
+L esp32-ethernet-rescue:PWR #FLG021
 U 1 1 592AEC20
 P 9200 1000
 F 0 "#FLG021" H 9250 1050 50  0001 C CNN
@@ -818,7 +789,7 @@ F 3 "" H -150 50  50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR #FLG022
+L esp32-ethernet-rescue:PWR #FLG022
 U 1 1 592AECE0
 P 9150 1650
 F 0 "#FLG022" H 9200 1700 50  0001 C CNN
@@ -835,7 +806,7 @@ Wire Wire Line
 	9150 1650 9150 1550
 Connection ~ 9150 1550
 $Comp
-L C C11
+L esp32-ethernet-rescue:C C11
 U 1 1 592B0E6B
 P 10850 2900
 F 0 "C11" H 10965 2946 50  0000 L CNN
@@ -861,4 +832,36 @@ Wire Wire Line
 	10700 3050 10850 3050
 Wire Wire Line
 	10850 3050 10850 3150
+Wire Wire Line
+	9850 2850 9900 2850
+Wire Wire Line
+	3000 5400 3200 5400
+Wire Wire Line
+	3200 5900 2750 5900
+Wire Wire Line
+	2850 5800 2750 5800
+Wire Wire Line
+	2850 5400 3000 5400
+Wire Wire Line
+	1900 6100 1900 6150
+Wire Wire Line
+	1900 5800 1950 5800
+Wire Wire Line
+	1900 6000 1900 6100
+Wire Wire Line
+	4850 1850 5100 1850
+Wire Wire Line
+	9500 1100 9500 1150
+Wire Wire Line
+	10600 1050 10600 1150
+Wire Wire Line
+	4300 1850 4850 1850
+Wire Wire Line
+	2200 2150 2200 2250
+Wire Wire Line
+	2200 2050 2200 2150
+Wire Wire Line
+	9200 1100 9500 1100
+Wire Wire Line
+	9150 1550 8950 1550
 $EndSCHEMATC
