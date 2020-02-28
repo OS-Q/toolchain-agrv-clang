@@ -13,7 +13,7 @@
 
 * [文档](docs/)
 * [资源](src/)
-    * [STM32W5500]](src/STM32W5500)
-    * [ESP32LAN]](src/ESP32LAN)
+    * [STM32W5500](src/STM32W5500)
+    * [ESP32LAN](src/ESP32LAN)
 
 ### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com)
