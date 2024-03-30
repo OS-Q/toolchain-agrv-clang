@@ -1,0 +1,22 @@
+{
+  "name": "toolchain-agrv-clang",
+  "version": "1.0.0",
+  "description": "LLVM toolchain for AgRV devices, including CLANG",
+  "keywords": [
+    "toolchain",
+    "llvm",
+    "clang",
+    "build",
+    "builder",
+    "compiler",
+    "assembler",
+    "linker",
+    "preprocessor",
+    "risc-v",
+    "agrv",
+    "agm"
+  ],
+  "system": [
+    "windows_amd64"
+  ]
+}

@@ -1,0 +1,6 @@
+*.pyc
+.pio/
+.vscode/
+riscv64-unknown-elf-cc.exe
+libLTO.dll
+libclang.dll
